@@ -1,0 +1,31 @@
+.search {
+  min-height: 100vh;
+}
+
+.noResults > h4 {
+  margin-top: 20px;
+}
+
+.homeButton {
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  padding: 0.625rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #e50914;
+  border: 1px solid #e50914;
+  color: #fff;
+}
+
+.homeButton:active {
+  transform: scale(0.96);
+}

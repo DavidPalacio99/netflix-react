@@ -1,0 +1,39 @@
+.plansScreen__plan {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  opacity: 0.8;
+}
+
+.plansScreen__plan:hover {
+  opacity: 1;
+}
+
+.plansScreen__plan > button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  max-width: 110px;
+}
+
+.CurrentPlan > button {
+  background-color: gray;
+}
+
+@media (max-width: 550px) {
+  .plansScreen__plan > button {
+    margin-left: 20px;
+  }
+}
+
+.plansScreen__plan.CurrentPlan {
+  opacity: 1;
+}
+
+.plansScreen___info > h6 {
+  font-weight: 600;
+}

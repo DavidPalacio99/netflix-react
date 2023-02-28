@@ -1,0 +1,30 @@
+.footer {
+  height: 65px;
+  background-color: #222222;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  gap: 10px;
+}
+
+.notFixed {
+  display: none;
+}
+
+.footer > h3 {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.icons {
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.icons:hover {
+  transform: scale(1.2);
+}
